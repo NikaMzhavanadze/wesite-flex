@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -21,16 +22,14 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.4;
-  overflow: hidden;
 }
 
-/*Utility Classes */
+/* Utility Classes */
 
 .container {
   width: 100%;
   margin: auto;
   padding: 0 2rem;
-  overflow: hidden;
 }
 
 .text-center {
@@ -226,14 +225,6 @@ body {
   justify-content: space-around;
 }
 
-.item {
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  text-align: center;
-  padding: 1rem;
-}
-
 #what .items .item {
   -webkit-box-flex: 1;
   -ms-flex: 1;
@@ -354,11 +345,11 @@ textarea::placeholder {
 
 header h1 {
   -webkit-animation: anim 1s forwards ease;
-          animation: anim 1s forwards ease;
+  animation: anim 1s forwards ease;
 }
 
 
-#what-h2, 
+#what-h2,
 #who-h2,
 #contact-h2 {
   display: -webkit-box;
@@ -366,18 +357,18 @@ header h1 {
   display: flex;
   height: 100px;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 #what-h2:target,
-#who-h2:target, 
+#who-h2:target,
 #contact-h2:target {
   -webkit-animation: anim 1s forwards ease;
-          animation: anim 1s forwards ease;
+  animation: anim 1s forwards ease;
 }
 
 #who-h2 {
@@ -387,22 +378,21 @@ header h1 {
 @-webkit-keyframes anim {
   from {
     -webkit-transform: translate(-2000px);
-            transform: translate(-2000px);
+    transform: translate(-2000px);
   }
   to {
     -webkit-transform: translate(0px);
-            transform: translate(0px);
+    transform: translate(0px);
   }
 }
 
 @keyframes anim {
   from {
     -webkit-transform: translate(-2000px);
-            transform: translate(-2000px);
+    transform: translate(-2000px);
   }
   to {
     -webkit-transform: translate(0px);
-            transform: translate(0px);
+    transform: translate(0px);
   }
 }
-

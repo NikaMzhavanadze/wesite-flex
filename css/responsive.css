@@ -1,9 +1,4 @@
-
-
 @media (max-width: 768px) {
-  body {
-    overflow: auto;
-  }
   #what .items {
     display: block;
     padding: 1rem;
@@ -22,9 +17,6 @@
 }
 
 @media (max-width: 568px) {
-  body {
-    overflow: auto;
-  }
   .l-heading {
     font-size: 3rem;
   }
@@ -36,9 +28,6 @@
 /* Smartphones */
 
 @media (max-width: 500px) {
-  body {
-    overflow: auto;
-  }
 
   #navbar {
     flex-direction: column;
@@ -58,11 +47,13 @@
   #who {
     display: block;
   }
-  #who .who-img {
+  .who-img {
     display: none;
   }
   #clients .items img {
     width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
   }
   #clients .items div:last-child {
     display: none;
@@ -74,4 +65,5 @@
     height: 400px;
     border-top: 4px solid #333333;
   }
+
 }
